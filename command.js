@@ -6,6 +6,10 @@ const commands = [
         name: "ping",
         description: "Replies with pong",
     },
+	{
+		name: "contest_cf",
+		description: "Lists out upcoming contests",	
+	},
 ];
 
 const rest = new REST({version: "10"}).setToken(token);
