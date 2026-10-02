@@ -8,7 +8,11 @@ const commands = [
     },
 	{
 		name: "contest_cf",
-		description: "Lists out upcoming contests",	
+		description: "Lists out upcoming CF contests",	
+	},
+	{
+		name: "contest_lc",
+		description: "Lists out upcoming LC contests",	
 	},
 ];
 
