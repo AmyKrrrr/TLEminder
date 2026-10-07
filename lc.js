@@ -6,7 +6,7 @@ async function getLcContest(){
         const contestsArray = contJson.contests.reverse();
         contestsArray.forEach(c => {
             const dateObj = new Date(c.originStartTime*1000);
-            contestDict[c.title] = dateObj.toLocaleString();
+            contestDict[c.title] = dateObj;
         })
         return contestDict;
     }

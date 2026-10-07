@@ -12,7 +12,7 @@ async function getCfContest(){
         const contestDict = {};
         upcoming.forEach(c => {
             const dateObj = new Date(c.startTimeSeconds*1000);
-            contestDict[c.name] = dateObj.toLocaleString();
+            contestDict[c.name] = dateObj;
         });
         
         return contestDict;
