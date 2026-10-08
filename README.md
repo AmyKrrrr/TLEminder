@@ -11,6 +11,7 @@ A Discord bot that tracks competitive programming contests from Codeforces and L
 
 ## Flowchart
 ```mermaid
+%%{init: {'theme': 'neutral'}}%%
 flowchart TD
     A[cf.js] --> |getCfContest| c(index.js)
     B[lc.js] --> |getLcContest| c(index.js)    
