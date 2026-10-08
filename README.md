@@ -14,7 +14,7 @@ A Discord bot that tracks competitive programming contests from Codeforces and L
 flowchart TD
     A[cf.js] --> |getCfContest| c(index.js)
     B[lc.js] --> |getLcContest| c(index.js)    
-    D[commands.js] --> E(/ping)
+    D[command.js] --> E(/ping)
     D --> F(/contest_cf)
     D --> G(/contest_lc)
 ```
