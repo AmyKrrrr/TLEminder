@@ -1,6 +1,8 @@
 # TLEminder
-
 A Discord bot that tracks competitive programming contests from Codeforces and LeetCode, provides on-demand lists via slash commands, and broadcasts daily updates.
+
+## Invite the bot to your server
+[click here to invite](https://discord.com/oauth2/authorize?client_id=1554136614668599438&permissions=3072&integration_type=0&scope=bot+applications.commands)
 
 ## Project Structure & Flow
 
@@ -41,3 +43,5 @@ flowchart TD
 
 - `Codeforces:` https://codeforces.com/apiHelp
 - `Leetcode:` https://github.com/alfaarghya/alfa-leetcode-api
+
+### Please star the repo if you liked it, lol
