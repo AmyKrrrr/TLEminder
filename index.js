@@ -6,7 +6,8 @@ const client = new Client({
 	intents: [
 		GatewayIntentBits.Guilds, 
 		GatewayIntentBits.GuildMessages,
-		GatewayIntentBits.MessageContent
+		GatewayIntentBits.MessageContent,
+		GatewayIntentBits.GuildMembers
 	] 
 });
 // intent ka matlab hota hai ki hum bot ko kis prakar ke conditions dere hain
